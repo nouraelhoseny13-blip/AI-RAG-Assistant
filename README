@@ -1,26 +1,98 @@
-🚀 Excited to share my latest AI project!
+# 🤖 AI RAG Assistant
 
-I’m happy to present my **AI RAG Assistant**, an intelligent web application that allows users to upload PDF documents and ask questions in natural language using Retrieval-Augmented Generation (RAG).
+An AI-powered Retrieval-Augmented Generation (RAG) application that enables users to upload PDF documents and ask questions using natural language. The system retrieves the most relevant information from the uploaded document through semantic search and generates accurate, context-aware answers using a Large Language Model.
 
-✨ Features:
-• Upload and analyze PDF documents
-• Intelligent text chunking
-• Semantic search with FAISS
-• Sentence Transformers embeddings
-• AI-powered question answering using Llama 3.3 (Groq)
-• Multi-question support
-• Document summarization
-• Source references for every answer
+---
 
-🛠️ Tech Stack:
-Python • FastAPI • React • Vite • FAISS • Sentence Transformers • Groq API • Hugging Face • Vercel
+## 🚀 Live Demo
 
-🌐 Live Demo:
-https://ai-rag-assistant-seven.vercel.app
+**Website:** https://ai-rag-assistant-seven.vercel.app
 
-💻 GitHub Repository:
-https://github.com/nouraelhoseny13-blip/AI-RAG-Assistant
+**Backend API:** https://nouraelhoseny13-ai-rag-assistant-backend.hf.space
 
-I'd love to hear your feedback and suggestions!
+---
 
-#AI #GenerativeAI #RAG #MachineLearning #Python #FastAPI #React #LangChain #FAISS #Portfolio #SoftwareEngineering #OpenToWork
+## ✨ Features
+
+* Upload PDF documents
+* Automatic text extraction
+* Intelligent text chunking
+* Generate embeddings using Sentence Transformers
+* Semantic Search with FAISS
+* AI-powered Question Answering
+* Document Summarization
+* Multiple Question Support
+* Source Citation
+* Fast and Responsive User Interface
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* CSS3
+* Axios
+
+### Backend
+
+* Python
+* FastAPI
+* FAISS
+* Sentence Transformers
+* PyPDF
+* Groq API (Llama 3.3)
+
+### Deployment
+
+* Vercel (Frontend)
+* Hugging Face Spaces (Backend)
+
+---
+
+## ⚙️ How It Works
+
+1. Upload a PDF document.
+2. Extract text from the PDF.
+3. Split the document into semantic chunks.
+4. Generate vector embeddings.
+5. Store embeddings in FAISS.
+6. Retrieve the most relevant chunks based on the user's question.
+7. Generate an answer using the Llama 3.3 language model.
+8. Display the answer along with its source document.
+
+---
+
+## 📂 Project Structure
+
+```text
+AI-RAG-Assistant/
+│
+├── frontend/
+├── backend/
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 💡 Future Improvements
+
+* Hybrid Search (FAISS + BM25)
+* Cross-Encoder Re-ranking
+* Multi-document Retrieval
+* Chat History
+* Authentication
+* Support for DOCX and TXT files
+
+---
+
+## 👩‍💻 Author
+
+**Noura Elhoseny**
+
+LinkedIn: *(Add your LinkedIn profile link here)*
+
+GitHub: https://github.com/nouraelhoseny13-blip
