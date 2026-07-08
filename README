@@ -1,6 +1,6 @@
 # 🤖 AI RAG Assistant
 
-An AI-powered Retrieval-Augmented Generation (RAG) application that enables users to upload PDF documents and ask questions using natural language. The system retrieves the most relevant information from the uploaded document through semantic search and generates accurate, context-aware answers using a Large Language Model.
+An AI-powered Retrieval-Augmented Generation (RAG) application that enables users to upload PDF documents and ask questions using natural language. The system retrieves the most relevant information from uploaded documents through semantic search and generates accurate, context-aware answers using a Large Language Model (LLM).
 
 ---
 
@@ -14,16 +14,16 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that enables user
 
 ## ✨ Features
 
-* Upload PDF documents
-* Automatic text extraction
-* Intelligent text chunking
-* Generate embeddings using Sentence Transformers
-* Semantic Search with FAISS
-* AI-powered Question Answering
-* Document Summarization
-* Multiple Question Support
-* Source Citation
-* Fast and Responsive User Interface
+- Upload PDF documents
+- Automatic text extraction
+- Intelligent text chunking
+- Generate embeddings using Sentence Transformers
+- Semantic Search with FAISS
+- AI-powered Question Answering
+- Document Summarization
+- Multiple Question Support
+- Source Citation
+- Fast and Responsive User Interface
 
 ---
 
@@ -31,24 +31,24 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that enables user
 
 ### Frontend
 
-* React
-* Vite
-* CSS3
-* Axios
+- React
+- Vite
+- CSS3
+- Axios
 
 ### Backend
 
-* Python
-* FastAPI
-* FAISS
-* Sentence Transformers
-* PyPDF
-* Groq API (Llama 3.3)
+- Python
+- FastAPI
+- FAISS
+- Sentence Transformers
+- PyPDF
+- Groq API (Llama 3.3)
 
 ### Deployment
 
-* Vercel (Frontend)
-* Hugging Face Spaces (Backend)
+- Vercel (Frontend)
+- Hugging Face Spaces (Backend)
 
 ---
 
@@ -59,8 +59,8 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that enables user
 3. Split the document into semantic chunks.
 4. Generate vector embeddings.
 5. Store embeddings in FAISS.
-6. Retrieve the most relevant chunks based on the user's question.
-7. Generate an answer using the Llama 3.3 language model.
+6. Retrieve the most relevant chunks using semantic search.
+7. Generate an answer with the Llama 3.3 language model.
 8. Display the answer along with its source document.
 
 ---
@@ -80,12 +80,12 @@ AI-RAG-Assistant/
 
 ## 💡 Future Improvements
 
-* Hybrid Search (FAISS + BM25)
-* Cross-Encoder Re-ranking
-* Multi-document Retrieval
-* Chat History
-* Authentication
-* Support for DOCX and TXT files
+- Hybrid Search (FAISS + BM25)
+- Cross-Encoder Re-ranking
+- Multi-document Retrieval
+- Chat History
+- Authentication
+- Support for DOCX and TXT files
 
 ---
 
@@ -93,6 +93,6 @@ AI-RAG-Assistant/
 
 **Noura Elhoseny**
 
-LinkedIn: *(Add your LinkedIn profile link here)*
+🔗 **LinkedIn:** https://www.linkedin.com/in/noura-elhoseny-ba59212aa
 
-GitHub: https://github.com/nouraelhoseny13-blip
+💻 **GitHub:** https://github.com/nouraelhoseny13-blip
