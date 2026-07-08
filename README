@@ -11,6 +11,33 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that allows users
 ⚡ **Backend API:** https://nouraelhoseny13-ai-rag-assistant-backend.hf.space
 
 ---
+---
+
+## 📸 Project Screenshots
+
+### Home Page
+
+![Home](assets/home.png)
+
+---
+
+### PDF Upload
+
+![Upload](assets/upload.png)
+
+---
+
+### AI Chat
+
+![Chat](assets/chat.png)
+
+---
+
+### Retrieved Sources
+
+![Sources](assets/sources.png)
+
+---
 
 ## 📸 Screenshots
 
