@@ -1,6 +1,6 @@
 # 🤖 AI RAG Assistant
 
-An AI-powered Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions in natural language. The system retrieves the most relevant information using semantic search and generates accurate, context-aware answers with the Llama 3.3 Large Language Model.
+An AI-powered Retrieval-Augmented Generation (RAG) application that enables users to upload PDF documents and ask questions in natural language. The system retrieves the most relevant information using semantic search and generates accurate, context-aware answers with the Llama 3.3 Large Language Model.
 
 ---
 
@@ -11,47 +11,26 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that allows users
 ⚡ **Backend API:** https://nouraelhoseny13-ai-rag-assistant-backend.hf.space
 
 ---
----
 
 ## 📸 Project Screenshots
-
-### Home Page
-
-![Home](assets/home.png)
-
----
-
-### PDF Upload
-
-![Upload](assets/upload.png)
-
----
-
-### AI Chat
-
-![Chat](assets/chat.png)
-
----
-
-### Retrieved Sources
-
-![Sources](assets/sources.png)
-
----
-
-## 📸 Screenshots
 
 ### 🏠 Home Page
 
 ![Home](assets/home.png)
 
+---
+
 ### 📤 Upload PDF
 
 ![Upload](assets/upload.png)
 
-### 💬 Ask Questions
+---
+
+### 💬 AI Chat
 
 ![Chat](assets/chat.png)
+
+---
 
 ### 📚 Retrieved Sources
 
@@ -70,7 +49,7 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that allows users
 - Document Summarization
 - Multiple Question Support
 - Source Citation
-- Responsive User Interface
+- Fast and Responsive User Interface
 
 ---
 
@@ -105,10 +84,10 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that allows users
 2. Extract text from the document.
 3. Split the text into semantic chunks.
 4. Generate vector embeddings.
-5. Store embeddings using FAISS.
-6. Retrieve the most relevant chunks based on the user's query.
+5. Store the embeddings using FAISS.
+6. Retrieve the most relevant chunks based on the user's question.
 7. Generate an answer using the Llama 3.3 language model.
-8. Return the answer with its document source.
+8. Display the answer along with the retrieved source document.
 
 ---
 
@@ -118,6 +97,10 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that allows users
 AI-RAG-Assistant/
 │
 ├── assets/
+│   ├── home.png
+│   ├── upload.png
+│   ├── chat.png
+│   └── sources.png
 ├── frontend/
 ├── backend/
 ├── README.md
