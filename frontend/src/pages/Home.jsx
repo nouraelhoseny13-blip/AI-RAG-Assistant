@@ -244,7 +244,7 @@ export default function Home() {
       className={`min-h-screen flex transition duration-500 ${
         darkMode
           ? "bg-gradient-to-br from-gray-950 via-gray-900 to-black text-white"
-          : "bg-gradient-to-br from-slate-100 via-blue-50 to-purple-100 text-gray-900"
+          : "bg-[#0B1B3A] text-white"
       }`}
     >
       <Sidebar
