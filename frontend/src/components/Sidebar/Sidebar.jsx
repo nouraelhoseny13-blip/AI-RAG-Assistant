@@ -28,12 +28,7 @@ export default function Sidebar({
 
   return (
     <div
-      className={`w-80 min-h-screen p-5 border-r backdrop-blur-xl transition duration-500
-      ${
-        darkMode
-          ? "bg-gray-950/70 text-white border-gray-800"
-          : "bg-white/40 text-gray-900 border-white/50"
-      }`}
+      className="w-80 min-h-screen p-5 backdrop-blur-xl transition duration-500 text-white"
     >
       {/* Header */}
       <div className="flex justify-between items-center mb-8">
@@ -49,7 +44,7 @@ export default function Sidebar({
           whileTap={{ scale: 0.9 }}
           onClick={() => setDarkMode(!darkMode)}
           className={`w-12 h-12 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110
-          ${darkMode ? "bg-gray-800 hover:bg-gray-700" : "bg-white hover:bg-gray-100"}`}
+          ${darkMode ? "bg-gray-800 hover:bg-gray-700" : "bg-white/10 hover:bg-white/20"}`}
         >
           {darkMode ? <Sun size={20} className="text-yellow-400" /> : <Moon size={20} className="text-indigo-500" />}
         </motion.button>
@@ -63,7 +58,7 @@ export default function Sidebar({
         ${
           darkMode
             ? "bg-gray-800 hover:bg-gray-700 text-white"
-            : "bg-white hover:bg-gray-100 text-gray-800 border border-gray-200"
+            : "bg-white/10 hover:bg-white/20 text-white border border-white/20"
         }`}
       >
         <Sparkles size={16} />
@@ -73,7 +68,7 @@ export default function Sidebar({
       {/* PDF Card */}
       <div
         className={`rounded-2xl p-5 mb-5 shadow-lg border transition-all duration-300
-        ${darkMode ? "bg-gray-900/80 border-gray-700" : "bg-white/70 border-white"}`}
+        ${darkMode ? "bg-gray-900/80 border-gray-700" : "bg-white/10 border-white/20"}`}
       >
         <h3 className="font-bold mb-3 flex items-center gap-2">
           <FileText size={16} />
@@ -123,7 +118,7 @@ export default function Sidebar({
                     <button
                       onClick={cancelRemove}
                       className={`flex-1 py-2 rounded-lg transition-all duration-300 ${
-                        darkMode ? "bg-gray-800 hover:bg-gray-700" : "bg-gray-200 hover:bg-gray-300"
+                        darkMode ? "bg-gray-800 hover:bg-gray-700" : "bg-white/10 hover:bg-white/20"
                       }`}
                     >
                       Cancel
@@ -171,7 +166,7 @@ export default function Sidebar({
       {/* AI Status */}
       <div
         className={`rounded-2xl p-5 mb-5 border shadow-md transition-all duration-300
-        ${darkMode ? "bg-green-900/20 border-green-700" : "bg-green-50 border-green-200"}`}
+        ${darkMode ? "bg-green-900/20 border-green-700" : "bg-green-900/20 border-green-700/40"}`}
       >
         <h3 className="font-bold text-green-500">🟢 AI Status</h3>
 
@@ -183,7 +178,7 @@ export default function Sidebar({
       {/* RAG Info */}
       <div
         className={`rounded-2xl p-5 border shadow-md transition-all duration-300
-        ${darkMode ? "bg-blue-900/20 border-blue-700" : "bg-blue-50 border-blue-200"}`}
+        ${darkMode ? "bg-blue-900/20 border-blue-700" : "bg-blue-900/20 border-blue-700/40"}`}
       >
         <h3 className="font-bold text-blue-500 mb-3">🧠 RAG Pipeline</h3>
 
@@ -198,7 +193,7 @@ export default function Sidebar({
       {/* Uploaded Documents */}
       <div
         className={`rounded-xl p-4 mt-5 transition-all duration-300 ${
-          darkMode ? "bg-gray-800/60" : "bg-gray-100"
+          darkMode ? "bg-gray-800/60" : "bg-white/5"
         }`}
       >
         <h3 className="font-semibold mb-3">📂 Uploaded PDFs ({pdfFiles.length})</h3>
@@ -214,7 +209,7 @@ export default function Sidebar({
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className={`rounded-lg p-3 mb-2 flex items-start gap-2 transition-all duration-300 hover:scale-[1.01] ${
-                  darkMode ? "bg-gray-700/70 hover:bg-gray-700" : "bg-white hover:bg-gray-50"
+                  darkMode ? "bg-gray-700/70 hover:bg-gray-700" : "bg-white/10 hover:bg-white/20"
                 }`}
               >
                 <div className="w-7 h-7 shrink-0 rounded-md bg-red-500/10 text-red-500 flex items-center justify-center">
