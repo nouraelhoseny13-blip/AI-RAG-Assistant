@@ -13,7 +13,11 @@ export default function UploadBox({ onUploaded, darkMode, uploadRef }) {
   const upload = async (file) => {
     if (!file) return;
 
-    if (file.type !== "application/pdf") {
+    const isPdf =
+      file.type === "application/pdf" ||
+      file.name.toLowerCase().endsWith(".pdf");
+
+    if (!isPdf) {
       toast.error("Please upload a PDF file only.");
       return;
     }
