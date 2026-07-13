@@ -298,13 +298,15 @@ export default function Home() {
         <div className="mt-5 w-full max-w-4xl">
           <div
             className={`flex items-center rounded-2xl shadow-lg border p-2 ${
-              darkMode ? "bg-gray-800 border-gray-700" : "bg-white"
+              darkMode
+                ? "bg-gray-800 border-gray-700"
+                : "bg-white/10 border-white/20 backdrop-blur-xl"
             }`}
           >
             <input
               autoComplete="off"
               className={`flex-1 p-3 outline-none bg-transparent ${
-                darkMode ? "text-white" : "text-gray-900"
+                "text-white"
               }`}
               placeholder="💬 Ask anything about your document..."
               value={input}
