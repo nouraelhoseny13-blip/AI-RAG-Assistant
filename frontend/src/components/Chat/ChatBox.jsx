@@ -134,8 +134,8 @@ export default function ChatBox({ messages, darkMode, loading }) {
     <div
       className={`w-full max-w-4xl h-[520px] overflow-y-auto rounded-3xl shadow-xl border p-6 space-y-5 transition duration-500 ${
         darkMode
-          ? "bg-gray-950/80 border-gray-800"
-          : "bg-white/10 border-white/20 backdrop-blur-xl"
+          ? "bg-gray-950 border-gray-800"
+          : "bg-white border-gray-100"
       }`}
     >
       <div className="flex items-center justify-between mb-3">
@@ -145,7 +145,7 @@ export default function ChatBox({ messages, darkMode, loading }) {
           </div>
 
           <div>
-            <h3 className="font-bold text-white">
+            <h3 className={`font-bold ${darkMode ? "text-white" : "text-gray-800"}`}>
               AI Assistant
             </h3>
 
@@ -161,7 +161,7 @@ export default function ChatBox({ messages, darkMode, loading }) {
               ? "bg-blue-600 text-white border-blue-600"
               : darkMode
               ? "border-gray-700 text-gray-300"
-              : "border-white/30 text-white/80"
+              : "border-gray-300 text-gray-600"
           }`}
         >
           <ArrowDownCircle size={14} />

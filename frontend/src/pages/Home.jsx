@@ -243,8 +243,8 @@ export default function Home() {
     <div
       className={`min-h-screen flex transition duration-500 ${
         darkMode
-          ? "bg-gradient-to-br from-gray-950 via-gray-900 to-black text-white"
-          : "bg-[#0B1B3A] text-white"
+          ? "bg-black text-white"
+          : "bg-white text-gray-900"
       }`}
     >
       <Sidebar
@@ -299,14 +299,14 @@ export default function Home() {
           <div
             className={`flex items-center rounded-2xl shadow-lg border p-2 ${
               darkMode
-                ? "bg-gray-800 border-gray-700"
-                : "bg-white/10 border-white/20 backdrop-blur-xl"
+                ? "bg-gray-900 border-gray-700"
+                : "bg-white border-gray-200"
             }`}
           >
             <input
               autoComplete="off"
               className={`flex-1 p-3 outline-none bg-transparent ${
-                "text-white"
+                darkMode ? "text-white" : "text-gray-900"
               }`}
               placeholder="💬 Ask anything about your document..."
               value={input}
