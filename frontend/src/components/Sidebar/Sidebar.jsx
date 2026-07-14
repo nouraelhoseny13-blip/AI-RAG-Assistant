@@ -28,7 +28,7 @@ export default function Sidebar({
 
   return (
     <div
-      className={`w-80 min-h-screen p-5 transition duration-500 ${
+      className={`w-80 shrink-0 min-h-screen p-5 transition duration-500 ${
         darkMode ? "bg-black text-white" : "bg-white text-gray-900"
       }`}
     >

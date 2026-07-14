@@ -241,7 +241,7 @@ export default function Home() {
 
   return (
     <div
-      className={`min-h-screen flex transition duration-500 ${
+      className={`min-h-screen w-full flex overflow-x-hidden transition duration-500 ${
         darkMode
           ? "bg-black text-white"
           : "bg-white text-gray-900"
@@ -258,7 +258,7 @@ export default function Home() {
         clearChat={clearChat}
       />
 
-      <div className="flex-1 p-8 flex flex-col items-center">
+      <div className="flex-1 min-w-0 p-8 flex flex-col items-center">
         <h1 className="text-4xl font-extrabold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           🤖 AI RAG Assistant
         </h1>
@@ -305,7 +305,7 @@ export default function Home() {
           >
             <input
               autoComplete="off"
-              className={`flex-1 p-3 outline-none bg-transparent ${
+              className={`flex-1 min-w-0 p-3 outline-none bg-transparent ${
                 darkMode ? "text-white" : "text-gray-900"
               }`}
               placeholder="💬 Ask anything about your document..."
